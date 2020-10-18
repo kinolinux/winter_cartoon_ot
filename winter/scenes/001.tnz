@@ -1,4 +1,4 @@
-<tnz framecount="1" version="71.0">
+<tnz framecount="123" version="71.0">
   <generator>
     "OpenToonz 1.4"
   </generator>
@@ -369,7 +369,7 @@
         </status>
         <cells>
           <cell>
-            0 1 <level id='1'/>0001 0 
+            0 123 <level id='1'/>0001 0 
           </cell>
           </cells>
         <fx>
@@ -575,5 +575,6 @@
     "| #    DATE:       Time:   MACHINE:    USER:           |"
     "| #1   18 февр. 20   14:53              |"
     "| #2   18 февр. 20   23:43              |"
+    "| #3   18 окт. 20   18:06               |"
   </history>
   </tnz>
