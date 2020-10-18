@@ -1,3 +1,4 @@
 /helicopter2/scenes/sceneIcons/*
 *.bak
 /helicopter2/outputs/*
+/render/*
