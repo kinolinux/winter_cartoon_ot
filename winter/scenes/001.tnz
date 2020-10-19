@@ -350,11 +350,19 @@
         </path>
         
       </level>
+      <level id='2'>
+        B 
+        <info dpiType="image"/>
+        <path>
+          "+drawings/B.pli"
+        </path>
+        
+      </level>
       
     </levels>
     <folder name="Cast" type="default">
       <levels>
-        <level id='1'/>
+        <level id='1'/><level id='2'/>
       </levels>
       </folder>
     <folder name="Audio">
@@ -362,7 +370,7 @@
     </levelSet>
   <xsheet>
     <columns>
-      <levelColumn id='2'>
+      <levelColumn id='3'>
         
         <status>
           0 
@@ -373,7 +381,7 @@
           </cell>
           </cells>
         <fx>
-          <Toonz_columnFx id='3'>
+          <Toonz_columnFx id='4'>
             
             <params>
               </params>
@@ -400,9 +408,44 @@
         </fx>
         
       </levelColumn>
-      <zeraryFxColumn id='4'>
-        <Toonz_zeraryColumnFx id='5'>
-          <STD_particlesFx id='6'>
+      <levelColumn id='5'>
+        
+        <status>
+          0 
+        </status>
+        <cells>
+          <cell>
+            27 96 <level id='2'/>0001 0 
+          </cell>
+          </cells>
+        <fx>
+          <Toonz_columnFx id='6'>
+            
+            <params>
+              </params>
+            <ports>
+              </ports>
+            <numberId>
+              0 
+            </numberId>
+            <name>
+              LevelColumn 
+            </name>
+            <fxId>
+              "" 
+            </fxId>
+            <opened>
+              0 
+            </opened>
+            
+          </Toonz_columnFx>
+          
+        </fx>
+        
+      </levelColumn>
+      <zeraryFxColumn id='7'>
+        <Toonz_zeraryColumnFx id='8'>
+          <STD_particlesFx id='9'>
             
             <params>
               <source_ctrl>
@@ -1296,6 +1339,69 @@
         <status>
           0 
         </status>
+        <x>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              27 2.55748 
+            </L>
+            <L>
+              <prev>
+                -19.4718 
+              </prev>
+              122 -19.4718 
+            </L>
+            </keyframes>
+          </x>
+        <y>
+          <default>
+            0 
+          </default>
+          <keyframes>
+            <L>
+              27 -0.348747 
+            </L>
+            <L>
+              <prev>
+                -0.0945637 
+              </prev>
+              122 -0.0945637 
+            </L>
+            </keyframes>
+          </y>
+        <sx>
+          <default>
+            1 
+          </default>
+          </sx>
+        <sy>
+          <default>
+            1 
+          </default>
+          </sy>
+        <sc>
+          <default>
+            1 
+          </default>
+          </sc>
+        <nodePos>
+          1.234e+09 5.678e+09 
+        </nodePos>
+        </pegbar>
+      <pegbar id="Col3">
+        <parent handle="B" id="Table" parentHandle="B">
+          </parent>
+        <isOpened>
+          0 
+        </isOpened>
+        <center>
+          0 0 0 0 
+        </center>
+        <status>
+          0 
+        </status>
         <sx>
           <default>
             1 
@@ -1322,14 +1428,17 @@
     <fxnodes>
       <terminal>
         <fxnode>
-          <Toonz_columnFx id='3'/>
+          <Toonz_columnFx id='4'/>
         </fxnode>
         <fxnode>
-          <Toonz_zeraryColumnFx id='5'/>
+          <Toonz_zeraryColumnFx id='8'/>
+        </fxnode>
+        <fxnode>
+          <Toonz_columnFx id='6'/>
         </fxnode>
         </terminal>
       <xsheet>
-        <Toonz_xsheetFx id='7'>
+        <Toonz_xsheetFx id='10'>
           
           <params>
             </params>
@@ -1355,13 +1464,13 @@
         
       </xsheet>
       <output>
-        <Toonz_outputFx id='8'>
+        <Toonz_outputFx id='11'>
           
           <params>
             </params>
           <ports>
             <source>
-              <Toonz_xsheetFx id='7'/>
+              <Toonz_xsheetFx id='10'/>
             </source>
             </ports>
           <dagNodePos>
@@ -1394,5 +1503,6 @@
     "| #2   18 февр. 20   23:43              |"
     "| #3   18 окт. 20   18:06               |"
     "| #4   18 окт. 20   19:16               |"
+    "| #5   19 окт. 20   10:01               |"
   </history>
   </tnz>
